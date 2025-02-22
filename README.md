@@ -11,4 +11,4 @@ Attached are all of the snapshots of the Vundle terminal that can somewhat show 
 ![Screenshot from 2025-02-20 18-34-04](https://github.com/user-attachments/assets/e68961de-fcc2-43c1-b4f3-8c5ccf00cc06)
 
 The Jellybeans scheme comes from https://vimawesome.com/plugin/jellybeans-vim which features a 256 color depth of warm hues and vibrant colors on the vim interface
-The fugitive vim came from the vundle script that was provided via the vundle git hub, I just kept it on there, I did not add a script because I have never learned to code in bash before.
+The fugitive vim came from the vundle script that was provided via the vundle git hub, I just kept it on there, I did not add a script because I have never learned to code in bash before. EVerything else I feel as if I was able to do and had success on.

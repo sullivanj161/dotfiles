@@ -28,22 +28,28 @@ prompt_installation() {
 
 # Main function
 install_singularity() {
-    # Ensure user is root
     check_root
-
-    # checks if apt already exists
     check_package_manager
-
-    # checks if name is not already assigned
     check_name_conflict
-
-    # prompts installation
     prompt_installation
 
-    # installs the application silently 
-    sudo apt update && sudo apt install -y singularity-container
+    echo "Adding Sylabs repository and installing Singularity..."
 
-    # Confirm installation completion
+    # Install required dependencies
+    sudo apt update
+    sudo apt install -y wget gnupg lsb-release software-properties-common
+
+    # Import Sylabs PGP key
+    wget -O- https://pkgs.sylabs.io/keys/sylabs.asc | sudo gpg --dearmor -o /usr/share/keyrings/sylabs-archive-keyring.gpg
+
+    # Add the Sylabs repository
+    echo "deb [signed-by=/usr/share/keyrings/sylabs-archive-keyring.gpg] https://pkgs.sylabs.io/apt $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/sylabs.list
+
+    # Update and install Singularity
+    sudo apt update
+    sudo apt install -y singularity-ce
+
+    # Confirm installation
     echo "Singularity installation complete. You can try running the software with the following command:"
     echo "singularity --version"
 }

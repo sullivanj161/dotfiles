@@ -325,7 +325,7 @@ For the entire repo
 
 For the vim-config 
 
--git clone https://github.com/sullivanj161/dotfiles/vim-config.git ~/vim-config
+-git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
 
 - cd ~/vim-config
 

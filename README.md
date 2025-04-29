@@ -1,5 +1,7 @@
 Task 1 Issue Summarization
 
+
+
 [vim and Vundle missing copy of .vimrc in repo]
 
 - In this issue all that was missing was a copy of the .vimrc file in the repo
@@ -9,6 +11,8 @@ Task 1 Issue Summarization
 - The .vimrc plugins I had chosen were jellybeans and youcompletemenow
 
 - The .vimrc seemed to have worked properly but was just missing in the .vimrc repo
+
+
 
 [What could have been done?]
 
@@ -21,6 +25,8 @@ Instead, I could have taken my time with this assignment and put attempted to fi
 - conducted the assignment at an earlier and more convinient time
 
 Issues 2 and 3
+
+
 
 [Script Issues]
 
@@ -54,11 +60,15 @@ Task 1 Repo Contents are
 
 Task 2 Issue Summarization
 
+
+
 [The issue?]
 
 .bashrc alias files were missing from the repository
 
 The bash files were important for because it would have all the aliases and bashes that I had setup in the linux environment for this specific task.
+
+
 
 [How was this solved?]
 
@@ -101,6 +111,8 @@ As far as for the future,
 
 - This entire readme was constructed and written with professional and readable markdown settings in mind
 
+
+
 [Contents of Task 2]
 
 -.bashrc
@@ -114,6 +126,8 @@ Incorrect README.md name
 
 For this issue,  README.md was actually titled 'sys-installs.md' all I needed to do was re title the md file to README.md.
 
+
+
 [How was this resolved?] 
 
 -Click on sys-installs.md
@@ -123,6 +137,8 @@ For this issue,  README.md was actually titled 'sys-installs.md' all I needed to
 -In the top left box where the name is, renamed to README.md
 
 -COMMIT CHANGES
+
+
 
 [What could have been Done?]
 
@@ -141,6 +157,8 @@ What I should do next time is
 /Script issue on Singularity/
 
 Script issue that was missing proper singularity install code inside of the script 
+
+
 
 [How was this resolved?]
 

@@ -325,7 +325,7 @@ For the entire repo
 
 For the vim-config 
 
--git clone https://github.com/sullivanj161/vim-config.git ~/vim-config
+-git clone https://github.com/sullivanj161/dotfiles/vim-config.git ~/vim-config
 
 - cd ~/vim-config
 
@@ -335,7 +335,7 @@ For the vim-config
 
   For the homefiles
 
--git clone https://github.com/sullivanj161/homefiles.git ~/homefiles
+-git clone https://github.com/sullivanj161/dotfiles/homefiles.git ~/homefiles
 
 - cd ~/homefiles
 
@@ -346,6 +346,6 @@ For the vim-config
 
 -for the sys-installs
 
--git clone https://github.com/sullivanj161/sys-installs.git ~/sys-installs
+-git clone https://github.com/sullivanj161//dotfiles/sys-installs.git ~/sys-installs
 
 - cd ~/sys-installs

@@ -24,7 +24,7 @@ Instead, I could have taken my time with this assignment and put attempted to fi
 
 - conducted the assignment at an earlier and more convinient time
 
-
+<pre> ```bash # This is a code block echo "Hello, world!" ```
 
 
 
@@ -42,8 +42,8 @@ The script was fixed via ChatGPT which recommended
 
 -Added 
 ```else
-echo "Vundle is already installed..."
-fi
+echo "Vundle is already installed..." fi ```
+
 
 -Added git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim under the echo section  in the if statement, this will copy the vim file to that said directory from its original location to the github repo
 

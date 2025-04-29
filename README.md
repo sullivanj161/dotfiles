@@ -1,8 +1,8 @@
-##Task 1 Issue Summarization
+### Task 1 Issue Summarization
 
 
 
-##[vim and Vundle missing copy of .vimrc in repo]
+[vim and Vundle missing copy of .vimrc in repo]
 
 - In this issue all that was missing was a copy of the .vimrc file in the repo
 
@@ -14,7 +14,7 @@
 
 
 
-##[What could have been done?]
+[What could have been done?]
 
 Instead, I could have taken my time with this assignment and put attempted to find a way to 
 

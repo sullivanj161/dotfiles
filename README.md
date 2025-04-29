@@ -2,7 +2,7 @@
 
 
 
-[vim and Vundle missing copy of .vimrc in repo]
+## [vim and Vundle missing copy of .vimrc in repo]
 
 - In this issue all that was missing was a copy of the .vimrc file in the repo
 
@@ -14,7 +14,7 @@
 
 
 
-[What could have been done?]
+## [What could have been done?]
 
 Instead, I could have taken my time with this assignment and put attempted to find a way to 
 
@@ -24,11 +24,11 @@ Instead, I could have taken my time with this assignment and put attempted to fi
 
 - conducted the assignment at an earlier and more convinient time
 
-Issues 2 and 3
 
 
 
-##[Script Issues]
+
+## [Task 1 Script Issues 2 and 3]
 
 The first issue was that the script should only install vundle if vundle directory was not found and I completely skipped this step and overlooked it.
 
@@ -36,23 +36,24 @@ The first issue was that the script should only install vundle if vundle directo
 
 - Fixed the Code
 
-##[What fixed the code?]
+## [What fixed the code?]
 
 The script was fixed via ChatGPT which recommended
 
--Added else
+-Added 
+```else
 echo "Vundle is already installed..."
 fi
 
 -Added git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim under the echo section  in the if statement, this will copy the vim file to that said directory from its original location to the github repo
 
-##[What could have been Improved?]
+## [What could have been Improved?]
 
 For this task, the improvement could have been understanding how GitHub works, how coding in Linux works,
 I feel like it was overlooked, when writing the code, I was not too sure what I was doing in a sense.
 
 
-##[Task 1 Repo Contents are]
+## [Task 1 Repo Contents are]
 
 -.vimrc
 -README.md
